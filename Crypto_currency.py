@@ -60,8 +60,10 @@ st.markdown(
 )
 
 # Title and Image
-image = Image.open('C:\\Users\\sharu\\Downloads\\DS_streamlit\\crypto.png')
+# Title and Image
+image = Image.open('crypto.png')
 st.image(image, width=500)
+
 st.title('Crypto Price App')
 st.markdown("""
 This app retrieves cryptocurrency prices for the top 100 cryptocurrencies from **CoinMarketCap**!
